@@ -6,7 +6,11 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-const basePromptPrefix = "";
+const basePromptPrefix = `
+Write me the exact same sentence with the emoji to use for the given word or sentence, to help people enhance their conversations:
+
+Sentence or word:
+`;
 const enhanceAction = async (req, res) => {
     // Run first prompt
     console.log(`API: ${basePromptPrefix}${req.body.userInput}`)

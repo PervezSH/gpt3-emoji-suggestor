@@ -44,7 +44,7 @@ const Home = () => {
             <h1>🤖 emoji, enhance</h1>
           </div>
           <div className="header-subtitle">
-            <h2>generate emojis to accurately represent users' feelings on social media</h2>
+            <h2>generate emojis to accurately represent users' feelings</h2>
           </div>
         </div>
         <div className="prompt-container">
